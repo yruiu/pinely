@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Colab";
+  src: url("ColabBol.otf") format("opentype");
+}
+body {
+  width: 100%;
+}
+body .main {
+  font-family: "Open Sans", sans-serif;
+  background: #f0f0ef;
+  min-height: 100vh;
+}
+body .main .singlePart {
+  width: 256px;
+  display: inline-block;
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto 
+    
+  }
+  .nots{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+body .main header {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.17);
+  background: #fff;
+  width: 100%;
+}
+body .main header .logo {
+  display: inline-flex;
+  text-align: center;
+}
+body .main header .logo .logoText {
+  font-family: "Colab", sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  text-decoration: none;
+  color: #000;
+  text-decoration-line: none;
+}
+.redux-options-output{
+  display: none;!important
+}
